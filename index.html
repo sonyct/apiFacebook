@@ -25,8 +25,21 @@
     <div class="container">
       <center>
         <h2>Facebook API Plugins</h2>
+        
+        <p>Botón "Me gusta"</p>
 
+        <div class="fb-like" data-href="https://sonyct.github.io/apiFacebook/" data-width="" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
 
+        <p>Botón para guardar en una lista privada de FB</p>
+      <div class="fb-save" data-uri="https://sonyct.github.io/apiFacebook/" data-size="large"></div>
+
+      <p>Para compartir</p>
+
+      <div class="fb-share-button" data-href="https://sonyct.github.io/apiFacebook/" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsonyct.github.io%2FapiFacebook%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
+
+      <p>Comentarios</p>
+      
+<div class="fb-comments" data-href="https://sonyct.github.io/apiFacebook/" data-width="700" data-numposts="20"></div>
       </center>
     </div>
   </main>
@@ -38,7 +51,13 @@
       </div>
     </div>
   </footer>
+
+<div id="fb-root"></div>
+
 </body>
 <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
+
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.3&appId=2283181111931768&autoLogAppEvents=1"></script>
+
 </html>
